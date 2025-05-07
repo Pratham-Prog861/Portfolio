@@ -29,7 +29,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
-        <div className="fixed bottom-5 w-full items-center h-5 flex justify-center">
+        <div className="fixed bottom-5 z-9999 w-full items-center h-5 flex justify-center">
           <Dock />
         </div>
       </body>
