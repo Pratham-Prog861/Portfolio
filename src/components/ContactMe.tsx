@@ -66,7 +66,7 @@ export default function ContactMe() {
           Contact Me
         </h2>
         <p className="mt-2 text-lg leading-8 text-gray-300">
-          Let's connect and discuss your project or opportunity.
+          Let&apos;s connect and discuss your project or opportunity.
         </p>
       </div>
       <form
@@ -164,7 +164,7 @@ export default function ContactMe() {
                 : 'bg-blue-600 hover:bg-blue-500 focus-visible:outline-offset-2 focus-visible:outline-blue-600'
               }`}
           >
-            {status.loading ? 'Sending...' : 'Let\'s talk'}
+            {status.loading ? 'Sending...' : 'Lets talk'}
           </button>
 
           {status.success && (

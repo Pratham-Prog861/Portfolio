@@ -34,9 +34,6 @@ const page = () => {
       live: "https://phdtodo.netlify.app/"
     }
   ]
-  const handleClick = (url: string) => {
-    window.open(url, '_blank', 'noopener,noreferrer');
-  }
   return (
     <div className="h-[180vh] bg-gradient-to-b from-gray-900 to-gray-800 py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
