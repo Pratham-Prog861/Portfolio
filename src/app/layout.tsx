@@ -24,12 +24,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
-        <div className="fixed bottom-5 w-full items-center h-16 flex justify-center">
+        <div className="fixed bottom-5 w-full items-center h-5 flex justify-center">
           <Dock />
         </div>
       </body>
