@@ -48,7 +48,7 @@ export default function ContactMe() {
   };
 
   return (
-    <div className="isolate h-[150vh] bg-gradient-to-b from-gray-900 to-gray-800 px-6 py-20 sm:py-32 lg:px-8">
+    <div className="isolate min-h-screen bg-gradient-to-b from-gray-900 to-gray-800 px-6 py-20 sm:py-32 lg:px-8">
       <div
         aria-hidden="true"
         className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]"
@@ -158,7 +158,7 @@ export default function ContactMe() {
           <button
             type="submit"
             disabled={status.loading}
-            className={`block w-full rounded-md px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm transition-all duration-300 
+            className={`block w-full rounded-md px-3.5 py-2.5 text-center hover:cursor-pointer text-sm font-semibold text-white shadow-sm transition-all duration-300 
               ${status.loading 
                 ? 'bg-gray-500 cursor-not-allowed' 
                 : 'bg-blue-600 hover:bg-blue-500 focus-visible:outline-offset-2 focus-visible:outline-blue-600'
