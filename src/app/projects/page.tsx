@@ -32,6 +32,13 @@ const page = () => {
       image: "/todo.png",
       github: "https://github.com/Pratham-Prog861/ToDo-App",
       live: "https://phdtodo.netlify.app/"
+    },
+    {
+      title: "AI Content Detection",
+      description: "This webapp is used to detect if a content is written by AI or not",
+      image: "/ai-content-detection.png",
+      github: "https://github.com/Pratham-Prog861/Humanize-AI",
+      live: "https://humanize-ai-ten.vercel.app/"
     }
   ]
   return (
