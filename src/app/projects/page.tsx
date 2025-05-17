@@ -39,10 +39,17 @@ const page = () => {
       image: "/ai-content-detection.png",
       github: "https://github.com/Pratham-Prog861/Humanize-AI",
       live: "https://humanize-ai-ten.vercel.app/"
+    },
+    {
+      title: "YT Summarizer",
+      description: "This is a youtube summarizer that you can use to summarize your youtube videos",
+      image: "/yt-summarizer.png",
+      github: "https://github.com/Pratham-Prog861/Youtube-Summarizer",
+      live: "https://yt-summarizer.netlify.app/"
     }
   ]
   return (
-    <div className="h-[170vh] bg-gradient-to-b from-gray-900 to-gray-800 py-12">
+    <div className="min-h-screen bg-gradient-to-b from-gray-900 to-gray-800 py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className='text-center mb-16'>
           <h1 className='text-4xl font-bold text-white mb-4'>My Projects</h1>
@@ -113,7 +120,7 @@ const page = () => {
       </div>
       <div className="text-center mt-12">
         <h1 className="text-3xl font-semibold text-white opacity-75">More Projects Coming Soon...</h1>
-        <p className="text-gray-400">Stay tuned for exciting new projects!</p>
+        <p className="text-gray-400 mb-14">Stay tuned for exciting new projects!</p>
       </div>
     </div>
   )
