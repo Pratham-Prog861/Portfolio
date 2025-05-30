@@ -46,6 +46,13 @@ const page = () => {
       image: "/yt-summarizer.png",
       github: "https://github.com/Pratham-Prog861/Youtube-Summarizer",
       live: "https://yt-summarizer.netlify.app/"
+    },
+    {
+      title: "Code with Pratham",
+      description: "This platform offers user to learn free development journey through best development path.",
+      image: "/codewithpratham.png",
+      github: "https://github.com/Pratham-Prog861/DevLearning",
+      live: "https://codewithpratham.netlify.app/"
     }
   ]
   return (
