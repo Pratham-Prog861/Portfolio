@@ -53,6 +53,13 @@ const page = () => {
       image: "/codewithpratham.png",
       github: "https://github.com/Pratham-Prog861/DevLearning",
       live: "https://codewithpratham.netlify.app/"
+    },
+    {
+      title: "TaskMaster",
+      description: "TaskMaster is a web application that helps you manage your tasks and stay organized.",
+      image: "/taskmaster.png",
+      github: "https://github.com/Pratham-Prog861/TaskMaster",
+      live: "https://task-master-phd.netlify.app/"
     }
   ]
   return (
