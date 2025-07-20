@@ -60,7 +60,19 @@ const page = () => {
       image: "/taskmaster.png",
       github: "https://github.com/Pratham-Prog861/TaskMaster",
       live: "https://task-master-phd.netlify.app/"
-    }
+    },
+    {
+      title: "LeetCode AI Helper",
+      description: "A browser extension to help solve LeetCode problems.",
+      image: "/leetcode-ai-helper.jpg",
+      github: "https://github.com/Pratham-Prog861/LeetCode-AI-Helper"
+    },
+    {
+      title: "ChatSync",
+      description: "A web application that i developed to chat with my friends.",
+      image: "/chat-sync.png",
+      github: "https://github.com/Pratham-Prog861/Chat-App-with-React"
+    },
   ]
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-900 to-gray-800 py-12">
