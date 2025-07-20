@@ -6,6 +6,7 @@ import {
   IconBrandGithub,
   IconBrandLinkedin,
   IconBrandProducthunt,
+  IconDownload,
   IconHome,
 } from "@tabler/icons-react";
 
@@ -55,6 +56,14 @@ export function Dock() {
       ),
       href: "https://github.com/Pratham-Prog861",
     },
+    {
+      title: "Resume",
+      icon: (
+        <IconDownload className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+      ),
+      href: "/Resume.pdf",
+      download: true,
+    }
   ];
   return (
     <div className="flex items-center justify-center h-[10rem] w-full">
