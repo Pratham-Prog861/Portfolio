@@ -44,6 +44,24 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              "name": "Pratham Darji",
+              "url": "https://pratham-prog861.vercel.app/",
+              "sameAs": [
+                "https://github.com/Pratham-Prog861",
+                "https://www.linkedin.com/in/pratham-darji-b704092a2/"
+              ],
+              "jobTitle": "Software Engineer"
+            })
+          }}
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

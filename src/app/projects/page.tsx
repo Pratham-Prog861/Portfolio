@@ -13,6 +13,26 @@ const page = () => {
       live: "https://aiconnectpro.netlify.app/"
     },
     {
+      title: "Code with Pratham",
+      description: "Learn web development for free.",
+      image: "/codewithpratham.png",
+      github: "https://github.com/Pratham-Prog861/DevLearning",
+      live: "https://codewithpratham.netlify.app/"
+    },
+    {
+      title: "VibeStream",
+      description: "I built a Spotify-style music app — without a backend!",
+      image: "/vibestream.png",
+      github: "https://github.com/Pratham-Prog861/VibeStream",
+      live: "https://vibe-stream-ebon.vercel.app/"
+    },
+    {
+      title: "Enhanced Convex Chat",
+      description: "A real-time chat app built with Convex",
+      image: "/convex-chat.png",
+      github: "https://github.com/Pratham-Prog861/convex-chat-tutorial-enhanced",
+    },
+    {
       title: "Music Player", 
       description: "This is a music player that you can use to play your favorite songs",
       image: "/music-player.png",
@@ -20,11 +40,37 @@ const page = () => {
       live: "https://phdmusic.netlify.app/"
     },
     {
+      title: "TaskMaster",
+      description: "TaskMaster is a web application that helps you manage your tasks and stay organized.",
+      image: "/taskmaster.png",
+      github: "https://github.com/Pratham-Prog861/TaskMaster",
+      live: "https://task-master-phd.netlify.app/"
+    },
+    {
       title: "Currency Converter",
       description: "This is an age calculator that you can use to calculate your age",
       image: "/currency-convertor.png", 
       github: "https://github.com/Pratham-Prog861/Streamlit/blob/main/currency_convertor.py",
       live: "https://phd-convertor.streamlit.app/"
+    },
+    {
+      title: "LeetCode AI Helper",
+      description: "A browser extension to help solve LeetCode problems.",
+      image: "/leetcode-ai-helper.jpg",
+      github: "https://github.com/Pratham-Prog861/LeetCode-AI-Helper"
+    },
+    {
+      title: "ChatSync",
+      description: "A web application that i developed to chat with my friends.",
+      image: "/chat-sync.png",
+      github: "https://github.com/Pratham-Prog861/Chat-App-with-React"
+    },
+    {
+      title : "React Lite Hooks",
+      description: "A set of lightweight React hooks for common UI needs.",
+      image: "/react-lite.png",
+      github: "https://github.com/Pratham-Prog861/react-lite-hooks",
+      live: "https://www.npmjs.com/package/react-lite-hooks"
     },
     {
       title: "Todo Web App",
@@ -47,32 +93,7 @@ const page = () => {
       github: "https://github.com/Pratham-Prog861/Youtube-Summarizer",
       live: "https://yt-summarizer.netlify.app/"
     },
-    {
-      title: "Code with Pratham",
-      description: "This platform offers user to learn free development journey through best development path.",
-      image: "/codewithpratham.png",
-      github: "https://github.com/Pratham-Prog861/DevLearning",
-      live: "https://codewithpratham.netlify.app/"
-    },
-    {
-      title: "TaskMaster",
-      description: "TaskMaster is a web application that helps you manage your tasks and stay organized.",
-      image: "/taskmaster.png",
-      github: "https://github.com/Pratham-Prog861/TaskMaster",
-      live: "https://task-master-phd.netlify.app/"
-    },
-    {
-      title: "LeetCode AI Helper",
-      description: "A browser extension to help solve LeetCode problems.",
-      image: "/leetcode-ai-helper.jpg",
-      github: "https://github.com/Pratham-Prog861/LeetCode-AI-Helper"
-    },
-    {
-      title: "ChatSync",
-      description: "A web application that i developed to chat with my friends.",
-      image: "/chat-sync.png",
-      github: "https://github.com/Pratham-Prog861/Chat-App-with-React"
-    },
+
   ]
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-900 to-gray-800 py-12">
