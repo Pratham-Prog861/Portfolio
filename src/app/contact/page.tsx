@@ -1,13 +1,21 @@
+import ContactMe from "@/components/ContactMe";
+import LocationMap from "@/components/LocationMap";
+import React from "react";
 
-import ContactMe from '@/components/ContactMe'
-import React from 'react'
-
-const page = () => {
+export default function Page() {
   return (
-    <div>
-        <ContactMe />
-    </div>
-  )
-}
+    <div className="bg-gradient-to-b from-gray-900 to-gray-800 min-h-screen">
+      <ContactMe />
 
-export default page
+      <div className="max-w-5xl mx-auto mt-4 px-3 pb-24">
+        <div className="text-center mb-8">
+          <h3 className="text-3xl font-bold text-white mb-2">
+            📍 Find Me Here
+          </h3>
+          <p className="text-gray-400">Based in Vadodara, Gujarat, India</p>
+        </div>
+        <LocationMap />
+      </div>
+    </div>
+  );
+}

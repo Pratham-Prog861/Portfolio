@@ -2,111 +2,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import projects from "@/lib/constant"
 
 const Projects = () => {
-  const projects = [
-    {
-      title: "Code with Pratham",
-      description: "Learn to code with me through interactive tutorials and projects.",
-      image: "/codewithpratham.webp",
-      github: "https://github.com/Pratham-Prog861/DevLearning",
-      live: "https://codewithpratham.netlify.app/",
-    },
-    {
-      title: "AI Connect Pro",
-      description: "This AI helps you find solutions to your problems",
-      image: "/ai-connect.webp",
-      github: "https://github.com/Pratham-Prog861/AI-Connect",
-      live: "https://aiconnectpro.netlify.app/",
-    },
-    {
-      title: "VibeStream",
-      description: "I built a Spotify-style music app — without a backend!",
-      image: "/vibestream.webp",
-      github: "https://github.com/Pratham-Prog861/VibeStream",
-      live: "https://vibe-stream-ebon.vercel.app/",
-    },
-    {
-      title: "LeetCode AI Helper",
-      description: "A browser extension to help solve LeetCode problems.",
-      image: "/leetcode-ai-helper.webp",
-      github: "https://github.com/Pratham-Prog861/LeetCode-AI-Helper",
-    },
-    {
-      title: "Mini Postman",
-      description: "Mini Postman is a minimalistic Postman client that helps you test APIs.",
-      image: "/mini-postman.webp",
-      github: "https://github.com/Pratham-Prog861/mini-postman",
-      live: "https://mini-postman-rouge.vercel.app/",
-    },
-    {
-      title: "Enhanced Convex Chat",
-      description: "Enhanced Convex Chat app with new features and optimizations.",
-      image: "/convex-chat.webp",
-      github: "https://github.com/Pratham-Prog861/convex-chat-tutorial-enhanced",
-    },
-    {
-      title: "CineVerse",
-      description: "Your Movie Discovery Platform. Explore and dive into the world of cinema with Cineverse.",
-      image: "/cineverse.webp",
-      github: "https://github.com/Pratham-Prog861/Cineverse",
-      live: "https://cineverse-coral-two.vercel.app/",
-    },
-    {
-      title: "React Lite Hooks",
-      description: "A set of lightweight React hooks for common UI needs.",
-      image: "/react-lite.webp",
-      github: "https://github.com/Pratham-Prog861/react-lite-hooks",
-      live: "https://www.npmjs.com/package/react-lite-hooks",
-    },
-    {
-      title: "StreamFlix",
-      description: "StreamFlix &#45; discover and stream movies online, anytime, anywhere.",
-      image: "/streamflix.webp",
-      github: "https://github.com/Pratham-Prog861/StreamFlix",
-      live: "https://stream-flix-six.vercel.app/",
-    },
-    {
-      title: "Aniverse",
-      description: "Aniverse is a anime discovery app that helps you find new anime to watch.",
-      image: "/aniverse.webp",
-      github: "https://github.com/Pratham-Prog861/aniverse",
-      live: "https://aniverse-seven.vercel.app/",
-    },
-    {
-      title: "TaskMaster",
-      description: "TaskMaster is a web application that helps you manage your tasks and stay organized.",
-      image: "/taskmaster.webp",
-      github: "https://github.com/Pratham-Prog861/TaskMaster",
-      live: "https://task-master-phd.netlify.app/",
-    },
-    {
-      title: "ChatSync",
-      description: "A web application that i developed to chat with my friends.",
-      image: "/chat-sync.webp",
-      github: "https://github.com/Pratham-Prog861/Chat-App-with-React",
-    },
-    {
-      title: "Lenovo Animated Website",
-      description: "A visually appealing animated website for Lenovo products.",
-      image: "/lenovo-animated-website.webp",
-      github: "https://github.com/Pratham-Prog861/Lenovo-Animated-Website",
-    },
-    {
-      title: "Music Player",
-      description: "This is a music player that you can use to play your favorite songs",
-      image: "/music-player.webp",
-      github: "https://github.com/Pratham-Prog861/music-player",
-      live: "https://phdmusic.netlify.app/",
-    },
-    {
-      title: "Currency Converter",
-      description: "This is an age calculator that you can use to calculate your age",
-      image: "/currency-convertor.webp",
-      github: "https://github.com/Pratham-Prog861/Streamlit/blob/main/currency_convertor.py",
-      live: "https://phd-convertor.streamlit.app/",
-    },
-  ];
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-900 to-gray-800 py-16">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -114,10 +13,9 @@ const Projects = () => {
           <h1 className='text-4xl font-bold text-white mb-4'>My Projects</h1>
           <p className='text-xl text-gray-400'>Showcasing my journey through code and creativity</p>
         </div>
-        
-        {/* Bento Grid Layout */}
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {/* Top Left - Large Featured */}
+
           <div className="relative group bg-black rounded-3xl overflow-hidden border border-gray-800 hover:border-gray-700 transition-all duration-300">
             <div className="aspect-[4/3] relative">
               <Image 
@@ -157,7 +55,6 @@ const Projects = () => {
             </div>
           </div>
 
-          {/* Top Right - Large Featured */}
           <div className="relative group bg-black rounded-3xl overflow-hidden border border-gray-800 hover:border-gray-700 transition-all duration-300">
             <div className="aspect-[4/3] relative">
               <Image
@@ -196,7 +93,6 @@ const Projects = () => {
             </div>
           </div>
 
-          {/* Bottom Left - Large Featured */}
           <div className="relative group bg-black rounded-3xl overflow-hidden border border-gray-800 hover:border-gray-700 transition-all duration-300">
             <div className="aspect-[4/3] relative">
               <Image
@@ -235,7 +131,6 @@ const Projects = () => {
             </div>
           </div>
 
-          {/* Bottom Right - Large Featured */}
           <div className="relative group bg-black rounded-3xl overflow-hidden border border-gray-800 hover:border-gray-700 transition-all duration-300">
             <div className="aspect-[4/3] relative">
               <Image
