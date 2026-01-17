@@ -79,8 +79,8 @@ export default function Home() {
       <div className="px-6 md:px-16 py-12">
         <div className="max-w-5xl mx-auto bg-gray-800/60 border border-gray-700 rounded-2xl p-8 text-center">
           <h3 className="text-2xl font-semibold text-white mb-2">Have a role in mind?</h3>
-          <p className="text-gray-300 mb-6">I’m open to frontend roles and freelance projects.</p>
-          <a href="/contact" className="inline-block px-6 py-3 bg-blue-600 rounded-lg hover:bg-blue-700 transition">Let’s talk</a>
+          <p className="text-gray-300 mb-6">I&apos;m open to frontend roles and freelance projects.</p>
+          <a href="/contact" className="inline-block px-6 py-3 bg-blue-600 rounded-lg hover:bg-blue-700 transition">Let&apos;s talk</a>
         </div>
       </div>
       <div className="text-white text-center w-full">

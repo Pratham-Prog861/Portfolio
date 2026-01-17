@@ -6,95 +6,107 @@ import React from "react";
 const Projects = () => {
   const projects = [
     {
-      title: "AI Connect Pro",
-      description: "This AI helps you find solutions to your problems",
-      image: "/landing_page.png",
-      github: "https://github.com/Pratham-Prog861/AI-Connect",
-      live: "https://aiconnectpro.netlify.app/"
+      title: "Code with Pratham",
+      description: "Learn to code with me through interactive tutorials and projects.",
+      image: "/codewithpratham.webp",
+      github: "https://github.com/Pratham-Prog861/DevLearning",
+      live: "https://codewithpratham.netlify.app/",
     },
     {
-      title: "Code with Pratham",
-      description: "Learn web development for free.",
-      image: "/codewithpratham.png",
-      github: "https://github.com/Pratham-Prog861/DevLearning",
-      live: "https://codewithpratham.netlify.app/"
+      title: "AI Connect Pro",
+      description: "This AI helps you find solutions to your problems",
+      image: "/ai-connect.webp",
+      github: "https://github.com/Pratham-Prog861/AI-Connect",
+      live: "https://aiconnectpro.netlify.app/",
     },
     {
       title: "VibeStream",
       description: "I built a Spotify-style music app — without a backend!",
-      image: "/vibestream.png",
+      image: "/vibestream.webp",
       github: "https://github.com/Pratham-Prog861/VibeStream",
-      live: "https://vibe-stream-ebon.vercel.app/"
-    },
-    {
-      title: "Enhanced Convex Chat",
-      description: "A real-time chat app built with Convex",
-      image: "/convex-chat.png",
-      github: "https://github.com/Pratham-Prog861/convex-chat-tutorial-enhanced",
-    },
-    {
-      title: "Music Player", 
-      description: "This is a music player that you can use to play your favorite songs",
-      image: "/music-player.png",
-      github: "https://github.com/Pratham-Prog861/music-player",
-      live: "https://phdmusic.netlify.app/"
-    },
-    {
-      title: "TaskMaster",
-      description: "TaskMaster is a web application that helps you manage your tasks and stay organized.",
-      image: "/taskmaster.png",
-      github: "https://github.com/Pratham-Prog861/TaskMaster",
-      live: "https://task-master-phd.netlify.app/"
-    },
-    {
-      title: "Currency Converter",
-      description: "This is an age calculator that you can use to calculate your age",
-      image: "/currency-convertor.png", 
-      github: "https://github.com/Pratham-Prog861/Streamlit/blob/main/currency_convertor.py",
-      live: "https://phd-convertor.streamlit.app/"
+      live: "https://vibe-stream-ebon.vercel.app/",
     },
     {
       title: "LeetCode AI Helper",
       description: "A browser extension to help solve LeetCode problems.",
-      image: "/leetcode-ai-helper.jpg",
-      github: "https://github.com/Pratham-Prog861/LeetCode-AI-Helper"
+      image: "/leetcode-ai-helper.webp",
+      github: "https://github.com/Pratham-Prog861/LeetCode-AI-Helper",
+    },
+    {
+      title: "Mini Postman",
+      description: "Mini Postman is a minimalistic Postman client that helps you test APIs.",
+      image: "/mini-postman.webp",
+      github: "https://github.com/Pratham-Prog861/mini-postman",
+      live: "https://mini-postman-rouge.vercel.app/",
+    },
+    {
+      title: "Enhanced Convex Chat",
+      description: "Enhanced Convex Chat app with new features and optimizations.",
+      image: "/convex-chat.webp",
+      github: "https://github.com/Pratham-Prog861/convex-chat-tutorial-enhanced",
+    },
+    {
+      title: "CineVerse",
+      description: "Your Movie Discovery Platform. Explore and dive into the world of cinema with Cineverse.",
+      image: "/cineverse.webp",
+      github: "https://github.com/Pratham-Prog861/Cineverse",
+      live: "https://cineverse-coral-two.vercel.app/",
+    },
+    {
+      title: "React Lite Hooks",
+      description: "A set of lightweight React hooks for common UI needs.",
+      image: "/react-lite.webp",
+      github: "https://github.com/Pratham-Prog861/react-lite-hooks",
+      live: "https://www.npmjs.com/package/react-lite-hooks",
+    },
+    {
+      title: "StreamFlix",
+      description: "StreamFlix &#45; discover and stream movies online, anytime, anywhere.",
+      image: "/streamflix.webp",
+      github: "https://github.com/Pratham-Prog861/StreamFlix",
+      live: "https://stream-flix-six.vercel.app/",
+    },
+    {
+      title: "Aniverse",
+      description: "Aniverse is a anime discovery app that helps you find new anime to watch.",
+      image: "/aniverse.webp",
+      github: "https://github.com/Pratham-Prog861/aniverse",
+      live: "https://aniverse-seven.vercel.app/",
+    },
+    {
+      title: "TaskMaster",
+      description: "TaskMaster is a web application that helps you manage your tasks and stay organized.",
+      image: "/taskmaster.webp",
+      github: "https://github.com/Pratham-Prog861/TaskMaster",
+      live: "https://task-master-phd.netlify.app/",
     },
     {
       title: "ChatSync",
       description: "A web application that i developed to chat with my friends.",
-      image: "/chat-sync.png",
-      github: "https://github.com/Pratham-Prog861/Chat-App-with-React"
+      image: "/chat-sync.webp",
+      github: "https://github.com/Pratham-Prog861/Chat-App-with-React",
     },
     {
-      title : "React Lite Hooks",
-      description: "A set of lightweight React hooks for common UI needs.",
-      image: "/react-lite.png",
-      github: "https://github.com/Pratham-Prog861/react-lite-hooks",
-      live: "https://www.npmjs.com/package/react-lite-hooks"
+      title: "Lenovo Animated Website",
+      description: "A visually appealing animated website for Lenovo products.",
+      image: "/lenovo-animated-website.webp",
+      github: "https://github.com/Pratham-Prog861/Lenovo-Animated-Website",
     },
     {
-      title: "Todo Web App",
-      description: "This is a todo web app that you can use to keep track of your tasks",
-      image: "/todo.png",
-      github: "https://github.com/Pratham-Prog861/ToDo-App",
-      live: "https://phdtodo.netlify.app/"
+      title: "Music Player",
+      description: "This is a music player that you can use to play your favorite songs",
+      image: "/music-player.webp",
+      github: "https://github.com/Pratham-Prog861/music-player",
+      live: "https://phdmusic.netlify.app/",
     },
     {
-      title: "AI Content Detection",
-      description: "This webapp is used to detect if a content is written by AI or not",
-      image: "/ai-content-detection.png",
-      github: "https://github.com/Pratham-Prog861/Humanize-AI",
-      live: "https://humanize-ai-ten.vercel.app/"
+      title: "Currency Converter",
+      description: "This is an age calculator that you can use to calculate your age",
+      image: "/currency-convertor.webp",
+      github: "https://github.com/Pratham-Prog861/Streamlit/blob/main/currency_convertor.py",
+      live: "https://phd-convertor.streamlit.app/",
     },
-    {
-      title: "YT Summarizer",
-      description: "This is a youtube summarizer that you can use to summarize your youtube videos",
-      image: "/yt-summarizer.png",
-      github: "https://github.com/Pratham-Prog861/Youtube-Summarizer",
-      live: "https://yt-summarizer.netlify.app/"
-    },
-
-  ]
+  ];
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-900 to-gray-800 py-16">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
