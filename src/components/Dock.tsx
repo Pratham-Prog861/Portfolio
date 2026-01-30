@@ -8,6 +8,8 @@ import {
   IconBrandProducthunt,
   IconDownload,
   IconHome,
+  IconUser,
+  IconStar,
 } from "@tabler/icons-react";
 
 export function Dock() {
@@ -19,7 +21,13 @@ export function Dock() {
       ),
       href: "/",
     },
-
+    {
+      title: "About",
+      icon: (
+        <IconUser className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+      ),
+      href: "/about",
+    },
     {
       title: "Projects",
       icon: (
@@ -33,6 +41,20 @@ export function Dock() {
         <IconBraille className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
       href: "/skills",
+    },
+    {
+      title: "Case Studies",
+      icon: (
+        <IconStar className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+      ),
+      href: "/case-studies",
+    },
+    {
+      title: "Blog",
+      icon: (
+        <IconBrandProducthunt className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+      ),
+      href: "/blog",
     },
     {
       title: "Contact Me",
@@ -63,7 +85,7 @@ export function Dock() {
       ),
       href: "/Resume.pdf",
       download: true,
-    }
+    },
   ];
   return (
     <div className="flex items-center justify-center h-[10rem] w-full">

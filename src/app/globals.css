@@ -5,6 +5,40 @@
   --font-mono: var(--font-geist-mono);
 }
 
+/* Light mode styles */
+:root {
+  --bg-primary: #f9fafb;
+  --bg-secondary: #ffffff;
+  --text-primary: #111827;
+  --text-secondary: #6b7280;
+  --border-color: #e5e7eb;
+}
+
+.dark {
+  --bg-primary: #111827;
+  --bg-secondary: #1f2937;
+  --text-primary: #f9fafb;
+  --text-secondary: #9ca3af;
+  --border-color: #374151;
+}
+
+body {
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+/* Base backgrounds that respect theme */
+.bg-theme-primary {
+  background-color: var(--bg-primary);
+}
+
+.bg-theme-secondary {
+  background-color: var(--bg-secondary);
+}
+
 /* Map popup styling only */
 .maplibregl-popup-content {
   background: transparent !important;

@@ -1,0 +1,6 @@
+# *
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://pratham-prog861.vercel.app/sitemap.xml
