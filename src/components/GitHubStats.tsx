@@ -255,7 +255,9 @@ export default function GitHubStats() {
                 }}
                 labelStyle={{ color: "#9CA3AF" }}
                 itemStyle={{ color: "#60A5FA" }}
-                formatter={(value: number) => [`${value} contributions`, ""]}
+                formatter={(value?: number) =>
+                  value == null ? ["", ""] : [`${value} contributions`, ""]
+                }
                 labelFormatter={(label) => `Day ${label}`}
               />
               <Line
@@ -268,39 +270,6 @@ export default function GitHubStats() {
               />
             </LineChart>
           </ResponsiveContainer>
-        </div>
-      </div>
-
-      {/* lassName="space-y-8">
-      <h2 className="text-3xl font-bold text-center bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-        GitHub Statistics
-      </h2>
-
-      {/* Overview Stats */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-        <div className="bg-gradient-to-br from-blue-500/10 to-blue-600/5 backdrop-blur-sm border border-blue-500/20 rounded-xl p-6 text-center hover:scale-105 transition-transform duration-300">
-          <IconBook className="w-8 h-8 mx-auto mb-2 text-blue-400" />
-          <div className="text-3xl font-bold text-blue-400">
-            {userData?.public_repos || 0}
-          </div>
-          <p className="text-gray-400 text-sm mt-1">Repositories</p>
-        </div>
-        <div className="bg-gradient-to-br from-yellow-500/10 to-yellow-600/5 backdrop-blur-sm border border-yellow-500/20 rounded-xl p-6 text-center hover:scale-105 transition-transform duration-300">
-          <IconStar className="w-8 h-8 mx-auto mb-2 text-yellow-400" />
-          <div className="text-3xl font-bold text-yellow-400">{totalStars}</div>
-          <p className="text-gray-400 text-sm mt-1">Total Stars</p>
-        </div>
-        <div className="bg-gradient-to-br from-purple-500/10 to-purple-600/5 backdrop-blur-sm border border-purple-500/20 rounded-xl p-6 text-center hover:scale-105 transition-transform duration-300">
-          <IconGitFork className="w-8 h-8 mx-auto mb-2 text-purple-400" />
-          <div className="text-3xl font-bold text-purple-400">{totalForks}</div>
-          <p className="text-gray-400 text-sm mt-1">Total Forks</p>
-        </div>
-        <div className="bg-gradient-to-br from-green-500/10 to-green-600/5 backdrop-blur-sm border border-green-500/20 rounded-xl p-6 text-center hover:scale-105 transition-transform duration-300">
-          <IconEye className="w-8 h-8 mx-auto mb-2 text-green-400" />
-          <div className="text-3xl font-bold text-green-400">
-            {userData?.followers || 0}
-          </div>
-          <p className="text-gray-400 text-sm mt-1">Followers</p>
         </div>
       </div>
 
